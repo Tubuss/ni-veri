@@ -1,0 +1,6 @@
+Targets/Controller/System Channels/Actual Loop Rate	Actual Loop Rate
+Targets/Controller/Simulation Models/Models/delay_random/Outports/Out1	Delay_Random Output
+Targets/Controller/Simulation Models/Models/delay_sinewave/Outports/Out1	Delay_Sinewave Output
+Targets/Controller/Simulation Models/Models/sinewave/Signals/sine/SineWave	SineWave
+Targets/Controller/Simulation Models/Models/sinewave/Inports/In1	Sinewave Input
+Targets/Controller/System Channels/System Time	System Time

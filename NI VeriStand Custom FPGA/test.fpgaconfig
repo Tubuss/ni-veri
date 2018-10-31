@@ -1,0 +1,11 @@
+<?xml version='1.0' standalone='yes' ?>
+<?xml-stylesheet type="text/xsl" href='NI VeriStand FPGA DMA.xsl'?>
+<FPGADMAChannelData xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "NI VeriStand FPGA DMA.xsd">
+	<Version>2.0</Version>	<Bitfile>dsddsa</Bitfile>	<Categories>
+		<Category>			<Name>Default</Name>			<Description></Description>			<Symbol>Default</Symbol>			<Category>				<Name>Default</Name>				<Description></Description>				<Symbol>Default</Symbol>			</Category>		</Category>	</Categories>	<DMA_Read>
+		<Packets>2</Packets>		<Packet/><!--Packet for Late Status bit -->		<Packet>
+			<FXPU64>				<Name>Channel-FXPU64</Name>				<Description></Description>				<Category>Default</Category>				<Unit></Unit>				<Symbol>AO</Symbol>				<FXPWL>0</FXPWL>				<FXPIWL>0</FXPIWL>			</FXPU64>		</Packet>	</DMA_Read>	<DMA_Write>
+		<Packets>3</Packets>		<Packet>
+			<U32>				<Name>Channel-U32</Name>				<Description></Description>				<Category>Default</Category>				<Unit></Unit>				<Symbol>Default</Symbol>			</U32>		</Packet>		<Packet>
+			<FXPU64>				<Name>Channel-FXPU64</Name>				<Description></Description>				<Category>Default</Category>				<Unit></Unit>				<Symbol>Default</Symbol>				<FXPWL>0</FXPWL>				<FXPIWL>0</FXPIWL>			</FXPU64>			<Void>				<Size>1</Size> <!-- Empty Packet-->			</Void>		</Packet>		<Packet>
+			<FXPI64>				<Name>Channel-FXPI64</Name>				<Description></Description>				<Category>Default</Category>				<Unit></Unit>				<Symbol>Default</Symbol>				<FXPWL>0</FXPWL>				<FXPIWL>0</FXPIWL>			</FXPI64>		</Packet>	</DMA_Write></FPGADMAChannelData>
